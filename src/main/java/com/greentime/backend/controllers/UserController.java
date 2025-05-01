@@ -1,6 +1,6 @@
 package com.greentime.backend.controllers;
 
-import com.greentime.backend.models.User;
+import com.greentime.backend.models.Users;
 import com.greentime.backend.repositories.UserRepository;
 import org.springframework.web.bind.annotation.*;
 
@@ -17,12 +17,12 @@ public class UserController {
     }
 
     @GetMapping
-    public List<User> getAllUsers() {
+    public List<Users> getAllUsers() {
         return userRepository.findAll();
     }
 
     @PostMapping
-    public User createUser(@RequestBody User user) {
+    public Users createUser(@RequestBody Users user) {
         return userRepository.save(user);
     }
 }
