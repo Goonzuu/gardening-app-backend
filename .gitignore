@@ -1,10 +1,11 @@
-HELP.md
+# Archivos generados por Maven
 target/
 !.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
 
-### STS ###
+# Archivos de ayuda
+HELP.md
+
+# Configuración de STS (Spring Tool Suite)
 .apt_generated
 .classpath
 .factorypath
@@ -13,22 +14,24 @@ target/
 .springBeans
 .sts4-cache
 
-### IntelliJ IDEA ###
-.idea
+# IntelliJ IDEA
+.idea/
 *.iws
 *.iml
 *.ipr
 
-### NetBeans ###
+# NetBeans
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
 
-### VS Code ###
+# VS Code
 .vscode/
-/target
+
+# Build directories dentro de src (en caso de error podés mantenerlos ignorados)
+**/src/main/**/target/
+**/src/test/**/target/
+**/src/main/**/build/
+**/src/test/**/build/
