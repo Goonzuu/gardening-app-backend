@@ -1,4 +1,4 @@
-package com.greentime.backend;
+package com.greentime;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,7 +1,7 @@
-package com.greentime.backend.controllers;
+package com.greentime.controller;
 
-import com.greentime.backend.models.Users;
-import com.greentime.backend.repositories.UserRepository;
+import com.greentime.models.Users;
+import com.greentime.repositories.UserRepository;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

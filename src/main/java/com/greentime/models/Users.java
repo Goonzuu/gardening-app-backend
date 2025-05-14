@@ -1,4 +1,4 @@
-package com.greentime.backend.models;
+package com.greentime.models;
 
 import jakarta.persistence.*;
 
